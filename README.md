@@ -1,1 +1,3 @@
 # CommunityActivities
+
+ZappyAI Community Activities
