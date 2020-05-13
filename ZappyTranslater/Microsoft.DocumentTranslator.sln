@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29201.188
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslationServices.Core", "TranslationServices.Core\TranslationServices.Core.csproj", "{9F027538-F794-4543-A510-155043A40CC6}"
 EndProject
@@ -33,6 +33,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenXmlPowerTools", "OpenXmlPowerTools\OpenXmlPowerTools.csproj", "{6F957FF3-AFCC-4D69-8FBC-71AE21BC45C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZappyLanguageTranslator", "ZappyLanguageTranslator\ZappyLanguageTranslator.csproj", "{5D8BC44F-05CB-4760-9E17-F15D7B2A3B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageTranslatorTest", "..\..\zappyai\AdditionalProjects\CognetiveServices\UnitTestProject\LanguageTranslatorTest\LanguageTranslatorTest.csproj", "{855F12F3-1CE1-4FD6-85E1-27170383D03B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -138,12 +140,24 @@ Global
 		{5D8BC44F-05CB-4760-9E17-F15D7B2A3B4D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{5D8BC44F-05CB-4760-9E17-F15D7B2A3B4D}.Release|x86.ActiveCfg = Release|Any CPU
 		{5D8BC44F-05CB-4760-9E17-F15D7B2A3B4D}.Release|x86.Build.0 = Release|Any CPU
+		{855F12F3-1CE1-4FD6-85E1-27170383D03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{855F12F3-1CE1-4FD6-85E1-27170383D03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{855F12F3-1CE1-4FD6-85E1-27170383D03B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{855F12F3-1CE1-4FD6-85E1-27170383D03B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{855F12F3-1CE1-4FD6-85E1-27170383D03B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{855F12F3-1CE1-4FD6-85E1-27170383D03B}.Debug|x86.Build.0 = Debug|Any CPU
+		{855F12F3-1CE1-4FD6-85E1-27170383D03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{855F12F3-1CE1-4FD6-85E1-27170383D03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{855F12F3-1CE1-4FD6-85E1-27170383D03B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{855F12F3-1CE1-4FD6-85E1-27170383D03B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{855F12F3-1CE1-4FD6-85E1-27170383D03B}.Release|x86.ActiveCfg = Release|Any CPU
+		{855F12F3-1CE1-4FD6-85E1-27170383D03B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D0F21F1B-4D1E-4BF7-98CD-E90AA1B6384E}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
+		SolutionGuid = {D0F21F1B-4D1E-4BF7-98CD-E90AA1B6384E}
 	EndGlobalSection
 EndGlobal
